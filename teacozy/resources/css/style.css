@@ -1,0 +1,133 @@
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: 1250px;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.container{
+  flex-direction: column;
+  align-self: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  postion: fixed;
+  align-items: flex-start;
+}
+
+ .flex-container img{
+   padding: 5px 10px;
+   align-self: flex-start;
+ }
+ nav{
+   display: flex;
+   align-self: center;
+   flex-direction: row;
+   justify-content: flex-end;
+   margin-left: 660px;
+
+ }
+
+a {
+  display: inline-block;
+  justify-content: flex-end;
+  text-decoration: underline;
+  justify-content: space-between;
+  color: seashell;
+  margin-left: 25px;
+}
+
+.mission{
+  background-image: url("../images/background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mission-content{
+  background-color: black;
+  width: 100%;
+}
+
+/*------------Tea  featured section --------------*/
+
+.tea-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tea-container img{
+  padding: 10px;
+}
+
+.tea-row-1{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
+.tea-row-2{
+  display: flex;
+  flex-direction: row;
+}
+
+/*-------------location-------------*/
+
+.location{
+  background-image: url("../images/location.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.location-container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.downtown{
+  background-color: black;
+  width: 300px;
+  display: inline-block;
+  margin: 15px 40px;
+  opacity: 1;
+
+}
+.east-bayside{
+  background-color: black;
+  width: 300px;
+  display: inline-block;
+  margin: 15px 40px;
+  opacity: 1;
+}
+.oakdale{
+  background-color: black;
+  width: 300px;
+  display: inline-block;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
+/*-------footer----------*/
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+.copyright{
+  text-align: left;
+}
